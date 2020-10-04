@@ -55,3 +55,6 @@ pub use self::money_flow_index::MoneyFlowIndex;
 
 mod on_balance_volume;
 pub use self::on_balance_volume::OnBalanceVolume;
+
+mod hurst_exponent;
+pub use self::hurst_exponent::HurstExponent;
